@@ -1,4 +1,4 @@
-# RAG-based Chat Application
+# RAG-based Chatbot WebApplication
 
 A web-based chat application that uses Retrieval-Augmented Generation (RAG) to provide intelligent responses based on web content. The application allows users to ingest URLs and ask questions about their content, providing accurate and context-aware answers.
 
@@ -21,7 +21,7 @@ A web-based chat application that uses Retrieval-Augmented Generation (RAG) to p
 - **BeautifulSoup**: For web scraping and content extraction
 
 ### Frontend
-- HTML/CSS/JavaScript
+- HTML/Vite/TypeScript/React/shadcn-ui/Tailwind CSS
 - Jinja2 templating
 
 ## Prerequisites
@@ -82,7 +82,6 @@ http://localhost:8001/chat
 - `vector_store.py`: Vector storage and search functionality
 - `models.py`: Data models and schemas
 - `templates/`: HTML templates
-- `static/`: Static files (CSS, JavaScript)
 - `requirements.txt`: Project dependencies
 
 ## Contributing
