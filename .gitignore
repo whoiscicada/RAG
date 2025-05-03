@@ -46,4 +46,12 @@ venv.bak/
 .python-version
 
 # Vite
-*.local 
+*.local
+
+# Generated files
+faiss_index.pkl
+static/
+new/
+
+# Empty directories
+**/empty/ 
